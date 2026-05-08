@@ -1,0 +1,91 @@
+<?php return array (
+  'sans-serif' => array(
+    'normal' => $rootDir . '/lib/fonts/Helvetica',
+    'bold' => $rootDir . '/lib/fonts/Helvetica-Bold',
+    'italic' => $rootDir . '/lib/fonts/Helvetica-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Helvetica-BoldOblique',
+  ),
+  'times' => array(
+    'normal' => $rootDir . '/lib/fonts/Times-Roman',
+    'bold' => $rootDir . '/lib/fonts/Times-Bold',
+    'italic' => $rootDir . '/lib/fonts/Times-Italic',
+    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
+  ),
+  'times-roman' => array(
+    'normal' => $rootDir . '/lib/fonts/Times-Roman',
+    'bold' => $rootDir . '/lib/fonts/Times-Bold',
+    'italic' => $rootDir . '/lib/fonts/Times-Italic',
+    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
+  ),
+  'courier' => array(
+    'normal' => $rootDir . '/lib/fonts/Courier',
+    'bold' => $rootDir . '/lib/fonts/Courier-Bold',
+    'italic' => $rootDir . '/lib/fonts/Courier-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Courier-BoldOblique',
+  ),
+  'helvetica' => array(
+    'normal' => $rootDir . '/lib/fonts/Helvetica',
+    'bold' => $rootDir . '/lib/fonts/Helvetica-Bold',
+    'italic' => $rootDir . '/lib/fonts/Helvetica-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Helvetica-BoldOblique',
+  ),
+  'zapfdingbats' => array(
+    'normal' => $rootDir . '/lib/fonts/ZapfDingbats',
+    'bold' => $rootDir . '/lib/fonts/ZapfDingbats',
+    'italic' => $rootDir . '/lib/fonts/ZapfDingbats',
+    'bold_italic' => $rootDir . '/lib/fonts/ZapfDingbats',
+  ),
+  'symbol' => array(
+    'normal' => $rootDir . '/lib/fonts/Symbol',
+    'bold' => $rootDir . '/lib/fonts/Symbol',
+    'italic' => $rootDir . '/lib/fonts/Symbol',
+    'bold_italic' => $rootDir . '/lib/fonts/Symbol',
+  ),
+  'serif' => array(
+    'normal' => $rootDir . '/lib/fonts/Times-Roman',
+    'bold' => $rootDir . '/lib/fonts/Times-Bold',
+    'italic' => $rootDir . '/lib/fonts/Times-Italic',
+    'bold_italic' => $rootDir . '/lib/fonts/Times-BoldItalic',
+  ),
+  'monospace' => array(
+    'normal' => $rootDir . '/lib/fonts/Courier',
+    'bold' => $rootDir . '/lib/fonts/Courier-Bold',
+    'italic' => $rootDir . '/lib/fonts/Courier-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Courier-BoldOblique',
+  ),
+  'fixed' => array(
+    'normal' => $rootDir . '/lib/fonts/Courier',
+    'bold' => $rootDir . '/lib/fonts/Courier-Bold',
+    'italic' => $rootDir . '/lib/fonts/Courier-Oblique',
+    'bold_italic' => $rootDir . '/lib/fonts/Courier-BoldOblique',
+  ),
+  'dejavu sans' => array(
+    'bold' => $rootDir . '/lib/fonts/DejaVuSans-Bold',
+    'bold_italic' => $rootDir . '/lib/fonts/DejaVuSans-BoldOblique',
+    'italic' => $rootDir . '/lib/fonts/DejaVuSans-Oblique',
+    'normal' => $rootDir . '/lib/fonts/DejaVuSans',
+  ),
+  'dejavu sans mono' => array(
+    'bold' => $rootDir . '/lib/fonts/DejaVuSansMono-Bold',
+    'bold_italic' => $rootDir . '/lib/fonts/DejaVuSansMono-BoldOblique',
+    'italic' => $rootDir . '/lib/fonts/DejaVuSansMono-Oblique',
+    'normal' => $rootDir . '/lib/fonts/DejaVuSansMono',
+  ),
+  'dejavu serif' => array(
+    'bold' => $rootDir . '/lib/fonts/DejaVuSerif-Bold',
+    'bold_italic' => $rootDir . '/lib/fonts/DejaVuSerif-BoldItalic',
+    'italic' => $rootDir . '/lib/fonts/DejaVuSerif-Italic',
+    'normal' => $rootDir . '/lib/fonts/DejaVuSerif',
+  ),
+  'latam sans' => array(
+    'normal' => $fontDir . '/latam_sans_normal_a275e4a7eb974fbbc1aabcd1eb8224a4',
+    'italic' => $fontDir . '/latam_sans_italic_17fcded1689f407e0517d5aee68136b7',
+    '300' => $fontDir . '/latam_sans_300_6fe6370c6c27bc783972ed2175135dba',
+    '300_italic' => $fontDir . '/latam_sans_300_italic_6794dd7c1eaae276492d4ffa49e475e1',
+    'bold' => $fontDir . '/latam_sans_bold_3619b202ee96ee4f5b15cd3e6859473e',
+    'bold_italic' => $fontDir . '/latam_sans_bold_italic_af19d23acf6d8fc80567b0991e3d8139',
+  ),
+  'latam sans extended' => array(
+    'normal' => $fontDir . '/latam_sans_extended_normal_d6e04a6b539094963f3880eaa5e5a068',
+  ),
+) ?>

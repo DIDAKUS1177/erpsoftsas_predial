@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:80"
+    volumes:
+      - .:/var/www/html
+    environment:
+      - DB_CONNECTION=sqlsrv
+      - DB_HOST=db
+      - DB_PORT=1433
+      - DB_DATABASE=erpsofts_guateque
+      - DB_USERNAME=sa
+      - DB_PASSWORD=SecretPassword123!
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - "1434:1433"
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=SecretPassword123!
+    volumes:
+      - sqlserver_data:/var/opt/mssql
+      - ./:/var/backups/
+
+volumes:
+  sqlserver_data:

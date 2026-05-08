@@ -1,0 +1,188 @@
+.cell_center {
+    text-align: center;
+}
+
+.dataTables_filter label>input {
+    border-color: rgb(202, 149, 69);
+}
+
+.dropdown-menu.open {
+    border-color: rgb(40, 172, 161);
+}
+
+textarea.form-control {
+    border: 1px solid rgb(40, 172, 161);
+}
+
+.checkbox label::before {
+    border-color: #ff7676;
+}
+
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error.checkbox label,
+.has-error.checkbox-inline label,
+.has-error.radio label,
+.has-error.radio-inline label {
+    color: #f30c07;
+}
+
+.has-error span.select2 span.selection span.select2-selection.select2-selection--single {
+    border-color: #ff7676;
+}
+
+.has-success span.select2 span.selection span.select2-selection.select2-selection--single {
+    border-color: #53e69d;
+}
+
+span.select2 span.selection span.select2-selection.select2-selection--single {
+    border: 1px solid #e4e7ea;
+}
+
+.help-block.error-help-block {
+    color: #f30c07;
+}
+
+.bootstrap-select>.dropdown-toggle {
+    height: 38px;
+}
+
+.datepicker {
+    width: fit-content;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    text-transform: none;
+}
+
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    text-transform: none;
+}
+
+::placeholder {
+    /* Recent browsers */
+    text-transform: none;
+}
+
+span.span_predio {
+    display: block;
+    font-size: 170%;
+    font-weight: bold;
+    color: rgb(185, 210, 9);
+}
+
+.datepicker-container {
+    z-index: 2000 !important;
+}
+
+.table-condensed>tbody>tr>td,
+.table-condensed>tbody>tr>th,
+.table-condensed>tfoot>tr>td,
+.table-condensed>tfoot>tr>th,
+.table-condensed>thead>tr>td,
+.table-condensed>thead>tr>th {
+    padding: 10px 8px;
+}
+
+.row-selected>td {
+    background-color: #80a7b9 !important;
+    color: white;
+}
+
+.error {
+    color: #f30c07;
+    font-weight: normal;
+}
+
+.input-center {
+    text-align: center;
+}
+
+#avaluosTable.table-condensed>tbody>tr>td,
+#avaluosTable.table-condensed>tbody>tr>th,
+#avaluosTable.table-condensed>tfoot>tr>td,
+#avaluosTable.table-condensed>tfoot>tr>th,
+#avaluosTable.table-condensed>thead>tr>td,
+#avaluosTable.table-condensed>thead>tr>th {
+    padding: 5px;
+}
+
+#avaluosTable.table-condensed>tbody>tr>th {
+    text-align: center !important;
+}
+
+.icons-tasks:hover {
+    color: #a3a3a3;
+}
+
+#porcentaje_ex-error, #tarifa_nueva-error {
+    position: absolute;
+    top: 38px;
+}
+.form-control-static {
+    padding-top: 0;
+}
+.nota-row, .acuerdo-row, .detalle-row {
+    cursor: pointer;
+}
+.detalle-row-selected {
+    background-color: #80a7b9 !important;
+    color: white;
+}
+.detalle-row-selected > td {
+    background-color: #80a7b9 !important;
+    color: white;
+}
+.nota-noclick-row, .acuerdo-noclick-row {
+    cursor: pointer;
+}
+.acuerdo-no-permission {
+    text-align: center;
+    font-size: xx-large;
+    color: #a08664;
+}
+.acuerdo-available {
+    text-align: center;
+    font-size: xx-large;
+    color: #3673ed;
+}
+
+
+/*
+SOLUTION 8: CSS fix for modal DataTables (add to your CSS)
+*/
+.modal .dataTables_wrapper {
+    overflow-x: auto;
+}
+
+.modal .dataTables_length,
+.modal .dataTables_filter,
+.modal .dataTables_info,
+.modal .dataTables_paginate {
+    margin-top: 10px;
+}
+
+.modal .table {
+    margin-bottom: 0;
+}
+/***********************************/
